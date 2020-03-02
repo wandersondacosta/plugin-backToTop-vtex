@@ -1,0 +1,27 @@
+.backToTop{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(50%);
+    width: 56px;
+    height: 30px;
+    background-color: #48b9b2;
+    border-radius: 100px 100px 0 0;
+    background-image: url(https://lojalivreeleve.vteximg.com.br/arquivos/icon-totop.png);
+    background-repeat: no-repeat;
+    z-index: 9999;
+    background-position: center 5px;
+}
+
+.backToTop-text{
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 18px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+}
