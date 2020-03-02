@@ -1,6 +1,6 @@
 
 
-$('<div class="backToTop"><div class="backToTop-text">subir</div></div>').insertBefore('footer')
+$('<div class="backToTop"><div class="backToTop-text">subir</div></div>').insertBefore('.footer')
 
 $('.backToTop').css({
         display: "none",
