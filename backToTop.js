@@ -1,5 +1,4 @@
 
-
 $('<div class="backToTop"><div class="backToTop-text">subir</div></div>').insertBefore('.footer')
 
 $('.backToTop').css({
@@ -7,7 +6,7 @@ $('.backToTop').css({
         position: "fixed",
         bottom: 0,
         left: "50%",
-        transform: "translate(50%)",
+        transform: "translate(-50%)",
         width: "56px",
         height: "30px",
         backgroundColor: "#48b9b2",
